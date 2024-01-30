@@ -84,7 +84,6 @@ const CardsSection = () => {
    
   return (
     <div className='container'>
-        {/* list rendering in React using array map */}
               {cardsInfo.map((item) => <Card key={item.id}
                                                 name={item.name}
                                                 paragraph={item.paragraph}
