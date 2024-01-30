@@ -18,7 +18,7 @@ const Hero = ({item}) => {
                     fontSize:"28px"}}>{item.description}</p>
         <a>{item.link1}</a>
         <a>{item.link2}</a>
-        <img style={{width:"1330px"}} src={item.img}/>
+        <img style={{width:"1180px"}} src={item.img}/>
     </div>
   )
 }

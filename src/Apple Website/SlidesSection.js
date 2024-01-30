@@ -57,8 +57,10 @@ const SlidesSection = () => {
   }
 
   const slideStyle = {
-    height: "600px",
-    width: "1100px",
+    height: "550px",
+    marginBottom:"10px",
+    marginLeft:"20px",
+    width: "1000px",
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat",
     backgroundImage: `url(${slides[currentSlide]})`,
