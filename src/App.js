@@ -6,9 +6,9 @@ import SlidesSection from './Apple Website/SlidesSection';
 function App() {
   return (
     <div className="App">
-      <HeroSection/>
-      <CardsSection/>
-      <SlidesSection/>
+      {/* <HeroSection/> */}
+      {/* <CardsSection/> */}
+      {/* <SlidesSection/> */}
       <Footer/>
     </div>
   );

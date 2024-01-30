@@ -1,10 +1,12 @@
 import React from 'react'
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
 const Footer = () => {
 
+    const items = ["Store","Mac","iPad","iPhone","AirPods","TV & Home","AirTag","Accessories","Gift Card"]
+
     const paragraphStyle = {
         color:"#6E6E73",
+        width:"980px",
         fontFamily:"SF Pro Text",
         paddingLeft:"300px",
         padding:"1px 0px 9.594px 0px",
@@ -19,9 +21,8 @@ const Footer = () => {
         backgroundColor:"#fcfbfb",
         paddingTop:"10px",
         display:"flex",
-        width:"980px",
-        height:"14px",
         justifyContent:"center",
+        alignItems:"center",
     }
   return (
     <div style={divStyle}>
@@ -34,9 +35,15 @@ const Footer = () => {
             Available for qualifying applicants in te US.<br/>
             Apple Card is used by Goldmann Sachs Bank USA, Salt Lake City Branch.<br/>
             Learn more about how Apple Card applications are evaluated at <strong>support.apple.com/kb/HT209218</strong>
-
+        <hr/>
+        <h4 style={{color:"black",fontWeight:"bolder"}}>Shop alnd Learn</h4>
+        {items.map((item,index) => (
+            <li key={index} style={{listStyle:"none"}}>{item}</li>
+        ))}
         </p>
+        
     </div>
+    
   )
 }
 
