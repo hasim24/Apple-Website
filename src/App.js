@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-
+import CardsSection from './Apple Website/CardsSection';
+import Footer from './Apple Website/Footer';
+import HeroSection from './Apple Website/HeroSection';
+import SlidesSection from './Apple Website/SlidesSection';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <HeroSection/> */}
+      {/* <CardsSection/> */}
+      {/* <SlidesSection/> */}
+      <Footer/>
     </div>
   );
 }
