@@ -1,5 +1,4 @@
 import React from 'react'
-import CopyrightIcon from '@mui/icons-material/Copyright';
 
 const Footer = () => {
 
@@ -43,6 +42,8 @@ const Footer = () => {
         paddingLeft:"0px",
         paddingRight:"0px",
     }
+
+    const year = new Date();
 
     
   return (
@@ -112,9 +113,9 @@ const Footer = () => {
         <div>
                <p style={{fontSize:".8rem",paddingTop:"20px"}}> More Ways to Shop : <a style={anchorStyle}>Find an Apple Store</a> or <a style={anchorStyle}>Other Retailer</a> near you. Or Call 1-800-MY-APPLE</p>
                 <hr/>
-                <p style={{fontSize:".8rem",display:"flex",letterSpacing:"1px"}} >Copyright  <CopyrightIcon style={{fontSize:"18px"}}/>  2022  Apple  Inc. All  rights  reserved.              
+                <p style={{fontSize:".8rem",display:"flex",letterSpacing:"1px",fontWeight:"bolder"}} >Copyright  &copy;  {year.getFullYear()}  Apple  Inc. All  rights  reserved.              
                 <div style={{paddingLeft:"80px"}}>{anchorlinks.map((link,index) => (
-                    <a style={{...anchorStyle,color:"black",
+                    <a key={index} style={{...anchorStyle,color:"black",
                                               paddingRight:"7px",
                                               fontSize:"14px",}}>{link}</a>
                 ))}</div> 

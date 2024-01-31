@@ -14,6 +14,7 @@ const Card = ({ description, name, paragraph, link1, link2, bg, img, color, icon
                border:"1px solid black",
                paddingTop:"15px"}}>
 
+    {/* {icon}  */}
     <span>{name}</span>
     <p className="series">{paragraph}</p>
     <img src={iconimg} style={{}}/>
