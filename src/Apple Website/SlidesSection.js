@@ -50,7 +50,7 @@ const SlidesSection = () => {
     return () => {
       window.removeEventListener("keydown", handleKeyPress);
     };
-  }, [nextSlide,prevSlide]);
+  });
 
   const goSlide = (index) => {
     setCurrentSlide(index)
