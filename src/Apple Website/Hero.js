@@ -16,9 +16,9 @@ const Hero = ({item}) => {
         <p style={{fontFamily:"SF Pro Display",
                     fontWeight:"400",
                     fontSize:"28px"}}>{item.description}</p>
-        <a>{item.link1}</a>
-        <a>{item.link2}</a>
-        <img style={{width:"1180px"}} src={item.img}/>
+        <a href='http://localhost:3000/'>{item.link1}</a>
+        <a href='http://localhost:3000/'>{item.link2}</a>
+        <img style={{width:"1180px"}} src={item.img} alt='apple'/>
     </div>
   )
 }

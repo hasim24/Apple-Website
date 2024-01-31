@@ -111,11 +111,11 @@ const Footer = () => {
             </div>
         </div>
         <div>
-               <p style={{fontSize:".8rem",paddingTop:"20px"}}> More Ways to Shop : <a style={anchorStyle}>Find an Apple Store</a> or <a style={anchorStyle}>Other Retailer</a> near you. Or Call 1-800-MY-APPLE</p>
+               <p style={{fontSize:".8rem",paddingTop:"20px"}}> More Ways to Shop : <a style={anchorStyle} href='http://localhost:3000/'>Find an Apple Store</a> or <a style={anchorStyle} href='http://localhost:3000/'>Other Retailer</a> near you. Or Call 1-800-MY-APPLE</p>
                 <hr/>
                 <p style={{fontSize:".8rem",display:"flex",letterSpacing:"1px",fontWeight:"bolder"}} >Copyright  &copy;  {year.getFullYear()}  Apple  Inc. All  rights  reserved.              
                 <div style={{paddingLeft:"80px"}}>{anchorlinks.map((link,index) => (
-                    <a key={index} style={{...anchorStyle,color:"black",
+                    <a key={index} href='http://localhost:3000/' style={{...anchorStyle,color:"black",
                                               paddingRight:"7px",
                                               fontSize:"14px",}}>{link}</a>
                 ))}</div> 

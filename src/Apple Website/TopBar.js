@@ -16,10 +16,10 @@ const TopBar = () => {
                  height:"80px",
                  marginBottom:"10px"}}>
             {/* <AppleIcon style={{paddingRight:"10px"}} /> */}
-            <img style={{width:"35px",height:"35px",backgroundColor:"white"}} src={appleIcon}/>
+            <img style={{width:"35px",height:"35px",backgroundColor:"white"}} src={appleIcon} alt='apple'/>
         {links.map((link,index) => (
             <div>
-                <a key={index} style={{color:"white"}}>{link}</a>
+                <a key={index} style={{color:"white"}} href='http://localhost:3000/'>{link}</a>
             </div> 
         ))}
             <SearchOutlinedIcon style={{paddingRight:"20px"}}/>

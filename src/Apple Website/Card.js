@@ -17,11 +17,11 @@ const Card = ({ description, name, paragraph, link1, link2, bg, img, color, icon
     {/* {icon}  */}
     <span>{name}</span>
     <p className="series">{paragraph}</p>
-    <img src={iconimg} style={{}}/>
+    <img src={iconimg} alt="icon"/>
     <p className="description">{description}</p>
 
-    <a>{link1}</a>
-    <a>{link2}</a>
+    <a href="http://localhost:3000/">{link1}</a>
+    <a href="http://localhost:3000/">{link2}</a>
     <img src={img} className="image" alt="Watch"  />
   </div>
       
