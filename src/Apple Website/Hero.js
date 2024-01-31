@@ -8,7 +8,6 @@ const Hero = ({item}) => {
                  border:"1px solid black"}}>
         {item.topBar}
         {item.searchicon}
-        {/* {item.icon} */}
         <span style={{fontFamily:"SF Pro Display",
                     fontWeight:"900px",
                     fontSize:"56px"}}>{item.heading}</span>

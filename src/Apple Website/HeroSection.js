@@ -3,7 +3,6 @@ import Hero from './Hero';
 import img1 from "./images/hero1.png";
 import img2 from "./images/hero2.png";
 import img3 from "./images/hero3.png";
-// import AppleIcon from "@mui/icons-material/Apple";
 import TopBar from './TopBar';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
@@ -40,7 +39,6 @@ const HeroSection = () => {
             bg:"#fcfbfb",
             color:"black",
             img:img3,
-            // icon:<AppleIcon style={{fontSize:"56px"}}/>
         }
     ]
   return (

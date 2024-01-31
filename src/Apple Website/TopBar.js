@@ -1,5 +1,4 @@
 import React from 'react'
-// import AppleIcon from "@mui/icons-material/Apple";
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 
@@ -14,7 +13,6 @@ const TopBar = () => {
                  justifyContent:"center",
                  height:"80px",
                  marginBottom:"10px"}}>
-            {/* <AppleIcon style={{paddingRight:"10px"}} /> */}
         {links.map((link,index) => (
             <div>
                 <a style={{color:"white"}}>{link}</a>
