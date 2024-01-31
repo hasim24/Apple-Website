@@ -7,7 +7,7 @@ import img4 from "./images/fitness.png";
 import iconimg from "./images/m2chip.png";
 import img5 from "./images/air.jpg";
 import img6 from "./images/figurecard.jpg";
-import AppleIcon from "@mui/icons-material/Apple";
+// import AppleIcon from "@mui/icons-material/Apple";
 
 
 
@@ -23,7 +23,7 @@ const cardsInfo = [
       bg:"black",
       color:"white",
       img:img1,
-      icon:<AppleIcon/>
+      // icon:<AppleIcon/>
     },
     {
       id:2,
@@ -45,7 +45,7 @@ const cardsInfo = [
       bg:"#fcfbfb",
       color:"black",
       img:img3,
-      icon:<AppleIcon/>
+      // icon:<AppleIcon/>
     },
     {
       id:4,
@@ -76,7 +76,7 @@ const cardsInfo = [
       bg:"#fcfbfb",
       color:"black",
       img:img6,
-      icon:<AppleIcon/>
+      // icon:<AppleIcon/>
     }
   ]
 
@@ -93,7 +93,7 @@ const CardsSection = () => {
                                                 bg={item.bg}
                                                 img={item.img}
                                                 color={item.color}
-                                                icon={item.icon}
+                                                // icon={item.icon}
                                                 iconimg={item.iconimg}/>)}
 
 

@@ -3,7 +3,7 @@ import React from "react";
 
 
 
-const Card = ({ description, name, paragraph, link1, link2, bg, img, color, icon, iconimg }) => {
+const Card = ({ description, name, paragraph, link1, link2, bg, img, color, iconimg }) => {
   return (
   
   <div  className="header" 
@@ -14,11 +14,12 @@ const Card = ({ description, name, paragraph, link1, link2, bg, img, color, icon
                border:"1px solid black",
                paddingTop:"15px"}}>
 
-    {icon} 
+    {/* {icon}  */}
     <span>{name}</span>
     <p className="series">{paragraph}</p>
     <img src={iconimg} style={{}}/>
     <p className="description">{description}</p>
+
     <a>{link1}</a>
     <a>{link2}</a>
     <img src={img} className="image" alt="Watch"  />
